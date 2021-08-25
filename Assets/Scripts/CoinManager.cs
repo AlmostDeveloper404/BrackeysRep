@@ -35,4 +35,14 @@ public class CoinManager : MonoBehaviour
         }
         return nearestCoin;
     }
+
+    public void PickUpCoin(Transform coin)
+    {
+        coins.Remove(coin);
+
+        if (coins.Count==0)
+        {
+            Debug.Log("Game Over Logic");
+        }
+    }
 }

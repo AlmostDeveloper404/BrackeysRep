@@ -20,7 +20,13 @@ public class HumanMovement : MonoBehaviour
 
     private void Update()
     {
+
         targetCoin = _coinManager.FindNearestCoin(transform.position);
-        _navMeshAgent.SetDestination(targetCoin.position);
+
+        if (targetCoin!=null)
+        {
+            _navMeshAgent.SetDestination(targetCoin.position);
+
+        }
     }
 }
