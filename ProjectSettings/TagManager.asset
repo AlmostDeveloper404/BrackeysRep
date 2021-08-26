@@ -14,7 +14,7 @@ TagManager:
   - UI
   - ExcludeNavMsh
   - Ball
-  - 
+  - IgnoreCollision
   - 
   - 
   - 
