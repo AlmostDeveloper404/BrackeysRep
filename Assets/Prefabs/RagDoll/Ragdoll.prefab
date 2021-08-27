@@ -866,7 +866,7 @@ GameObject:
   - component: {fileID: 3376462342051912967}
   m_Layer: 6
   m_Name: Point
-  m_TagString: Untagged
+  m_TagString: Ragdoll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -912,7 +912,7 @@ GameObject:
   - component: {fileID: 3376462342143839525}
   m_Layer: 0
   m_Name: Ragdoll
-  m_TagString: Untagged
+  m_TagString: Ragdoll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1385,7 +1385,7 @@ GameObject:
   - component: {fileID: 5716413095451404747}
   m_Layer: 6
   m_Name: HumanPhizical
-  m_TagString: Untagged
+  m_TagString: Ragdoll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2869,17 +2869,285 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 131713506711412345, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 146434218082824642, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 166503418547410939, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 243505042194039617, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 348167285801574970, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 395336132516636742, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 535944005161382122, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 770612607997908310, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 861179017180682331, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186223022202712294, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244508852996147252, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 1375126596896158287, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471700426545850426, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497811860462884904, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 1693344309197542788, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695871584378751532, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 1757712083529522849, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806973780540651621, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031895965331560817, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685521792876060553, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 3006282021373312916, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 3029016613697366350, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190621555610237746, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501654964218608199, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 3600303280365363992, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 3775751456039112531, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049733985031006713, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288169689535563417, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 4323690761377129637, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4394631763722203277, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513915108740169850, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612334078724456984, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702529293551768585, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793907874191945576, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024987541815719823, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5039016592283656044, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058674070301143284, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5189685361115522777, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243464158936770749, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327355466096396430, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386722633334302454, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551301857624174540, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5616722227713867090, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5687443689500028893, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5879093006858352707, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 6099839480891381736, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111714480185946753, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 6154693011944679479, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 6160490495349333957, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222202754973636380, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 6276604900494403585, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 6393727259380096968, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524692275636285636, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573534867813419804, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 6683466216758908475, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064344988370258844, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 7121815316529915121, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420423098690985898, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558026045588696398, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681614434140156286, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905661261903063592, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 8054420508968726769, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081424566042477519, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164343011082712240, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 8350401165043835028, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408114693083574177, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 8635160721691850900, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835149789423515109, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024332069385691011, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152274723896742716, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 9161443485405539649, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
       propertyPath: m_Enabled
@@ -2932,6 +3200,10 @@ PrefabInstance:
     - target: {fileID: 9161443487078828382, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
       propertyPath: m_Name
       value: HumanAnimated
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161443487078828382, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 221927397, guid: bebbac91c36f495429713c0a1dae2f00, type: 3}
@@ -3051,6 +3323,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -9070493210130169274, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3099,9 +3375,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -8183481454299698827, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8183481454299698827, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -8021001004253913084, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3135,141 +3419,281 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -8006009767450596044, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -7657966619581158213, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7657966619581158213, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -7360747449169001873, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -7360747449169001873, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -7121769801107515815, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7121769801107515815, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -6621945745981909287, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -6621945745981909287, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -6370085079684087283, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6370085079684087283, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -6234591296559379751, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -6234591296559379751, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -6170625038081293824, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6170625038081293824, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -6056541330796499132, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -6056541330796499132, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -5857696854640597626, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5857696854640597626, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -5561550452697079657, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -5561550452697079657, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -5195048882033904264, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5195048882033904264, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -4999088201633142198, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -4999088201633142198, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -4728426434207774260, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4728426434207774260, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -4501530691011011137, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -4501530691011011137, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -4332706925441422008, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4332706925441422008, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -4278032810995721380, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -4278032810995721380, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -3799395697873186154, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3799395697873186154, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -3542885339558904099, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -3542885339558904099, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -3478013746326755454, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3478013746326755454, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -3214267034143217929, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -3214267034143217929, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -3086436065929644917, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3086436065929644917, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -2084811680363313996, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -2084811680363313996, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -1781356600409242780, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1781356600409242780, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -1703473491307067327, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -1703473491307067327, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -1425791611860619382, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1425791611860619382, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -1268151995469589007, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -1268151995469589007, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -1200856079203341021, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1200856079203341021, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -751476226918971245, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -751476226918971245, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -552831747908440785, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -552831747908440785, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -290750445479886849, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -290750445479886849, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: -203856693384778745, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -203856693384778745, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: -76546954072915012, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -76546954072915012, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 9171100556185337, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 9171100556185337, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 414117464747255840, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 414117464747255840, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Name
@@ -3279,105 +3703,209 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 1082271958561512970, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082271958561512970, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 1339101018200438765, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1339101018200438765, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 1711505207429034123, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711505207429034123, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 2158975759703390516, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2158975759703390516, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 2586065998465600510, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2586065998465600510, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 2715566404302941441, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2715566404302941441, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 2898355158428612036, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2898355158428612036, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 3047284246813455858, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3047284246813455858, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 3135921509060577837, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135921509060577837, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 3588849560313704984, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3588849560313704984, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 3614653200513675785, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3614653200513675785, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 3882815353823017779, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3882815353823017779, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 3948933247560734027, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3948933247560734027, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 3974016661214395164, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3974016661214395164, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 4114030615378554161, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114030615378554161, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 4237274458221626025, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4237274458221626025, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 4441848305933595309, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441848305933595309, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 4549111882529890269, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4549111882529890269, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 5120724536234783804, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120724536234783804, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 6240733294840144465, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6240733294840144465, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 6514210125699187276, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6514210125699187276, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 7363479242261063072, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7363479242261063072, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 7542137907003004905, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542137907003004905, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 7732535366517880319, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7732535366517880319, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 7776229726456038893, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776229726456038893, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     - target: {fileID: 8417361359673230750, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3387,13 +3915,25 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8817898888258712963, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 8953972740105248388, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8953972740105248388, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
+      objectReference: {fileID: 0}
     - target: {fileID: 9037727976738196030, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9037727976738196030, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
+      propertyPath: m_TagString
+      value: Ragdoll
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 660e2140bc7e6ad439ad55a4f25119d4, type: 3}
