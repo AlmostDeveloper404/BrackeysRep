@@ -5,7 +5,7 @@ using UnityEngine.AI;
 public class HumanMovement : MonoBehaviour
 {
     NavMeshAgent _navMeshAgent;
-    [SerializeField]Transform targetCoin;
+    Transform targetCoin;
     CoinManager _coinManager;
 
     private void Awake()
@@ -23,7 +23,7 @@ public class HumanMovement : MonoBehaviour
 
         targetCoin = _coinManager.FindNearestCoin(transform.position);
 
-        if (targetCoin!=null)
+        if (targetCoin!=null && _navMeshAgent.enabled==true)
         {
             _navMeshAgent.SetDestination(targetCoin.position);
 

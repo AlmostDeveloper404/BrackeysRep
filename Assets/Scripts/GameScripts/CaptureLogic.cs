@@ -1,21 +1,22 @@
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class CaptureLogic : MonoBehaviour
 {
-    CoinManager _coinManager;
+    [SerializeField]Ragdoll ragdoll;
 
-    private void Start()
-    {
-        _coinManager = CoinManager.instance;
-    }
+    public RagdollManager ragdollManager;
 
+    bool isCatched = false;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<Coin>()!=null)
+        if(other.GetComponent<FirstPersonController>() && ragdollManager.isFall && !isCatched)
         {
-            _coinManager.PickUpCoin(other.transform);
-
-            Destroy(other.gameObject);
+            isCatched = true;
+            ragdoll = GetComponentInParent<Ragdoll>();
+            ragdoll.Death();         
         }
     }
+
+    
 }

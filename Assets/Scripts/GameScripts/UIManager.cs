@@ -17,15 +17,17 @@ public class UIManager : MonoBehaviour
     }
     #endregion
 
+    GameManager _gameManager;
     public Text scoreText;
 
     private void Start()
     {
+        _gameManager = GameManager.instance;
         UpdateScore();
     }
 
     public void UpdateScore()
     {
-        scoreText.text = GameManager.coinsRemain + " / " + GameManager.enemyRemain;
+        scoreText.text = _gameManager.coinsRemain + " / " + _gameManager.enemyRemain;
     }
 }

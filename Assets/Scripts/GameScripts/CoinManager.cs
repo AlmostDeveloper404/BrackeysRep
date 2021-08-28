@@ -21,13 +21,18 @@ public class CoinManager : MonoBehaviour
 
     public List<Transform> coins = new List<Transform>();
 
+    GameManager _gameManager;
+
     public GameObject particle;
-    UIManager _uiManager;
     public CoinSpawner _coinSpawner;
 
+    AudioSource _audioSourse;
+
+    
     private void Start()
     {
-        _uiManager = UIManager.instance;
+        _audioSourse = GetComponent<AudioSource>();
+        _gameManager = GameManager.instance;
     }
 
     public Transform FindNearestCoin(Vector3 human)
@@ -51,18 +56,21 @@ public class CoinManager : MonoBehaviour
 
         GameObject particleGO = Instantiate(particle,coin.position+new Vector3(0f,.5f,0f),coin.rotation);
         Destroy(particleGO,1f);
+
         coins.Remove(coin);
-        GameManager.coinsRemain--;
-        _uiManager.UpdateScore();
+
+        _gameManager.RemoveCoin();
         if (coins.Count==0)
         {
             Debug.Log("Game Over Logic");
             return;
         }
-        if (GameManager.coinsRemain>coins.Count)
+        if (_gameManager.coinsRemain>coins.Count)
         {
+            _audioSourse.Play();
             coins.Add(_coinSpawner.Spawn());
         }
+        
     }
 
 }

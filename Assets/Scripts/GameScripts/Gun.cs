@@ -7,6 +7,9 @@ public class Gun : MonoBehaviour
 
     AudioSource source;
 
+    float reloading = .3f;
+    float timer;
+
 
     private void Awake()
     {
@@ -14,9 +17,12 @@ public class Gun : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        timer = Mathf.Clamp(timer,-1f,Mathf.Infinity);
+        timer -= Time.deltaTime;
+        if (Input.GetMouseButtonDown(0) && timer<=0)
         {
             Shoot();
+            timer = reloading;
         }
     }
 

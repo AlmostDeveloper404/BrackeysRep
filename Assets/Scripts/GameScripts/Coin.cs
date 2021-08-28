@@ -4,9 +4,6 @@ using System.Collections;
 
 public class Coin : MonoBehaviour
 {
-
-    [SerializeField] int randomNumber;
-
     NavMeshAgent _navMeshAgent;
     [SerializeField]float triggerRadius;
 
@@ -15,14 +12,27 @@ public class Coin : MonoBehaviour
 
     Collider nearestHuman;
 
+    [SerializeField]Transform[] pointRandomPositions;
+    public Transform randomPositionsStuck;
 
-    Vector3 randomPosition;
+
+    [SerializeField]int randomPosition;
 
     
 
     private void Awake()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
+    }
+
+    private void Start()
+    {
+        pointRandomPositions = new Transform[randomPositionsStuck.childCount];
+        for (int i = 0; i < pointRandomPositions.Length; i++)
+        {
+            pointRandomPositions[i] = randomPositionsStuck.GetChild(i);
+        }
+        randomPosition = Random.Range(0,pointRandomPositions.Length);
     }
     public Collider FindNearestHuman()
     {
@@ -68,7 +78,7 @@ public class Coin : MonoBehaviour
     void FreelyMovement()
     {
         _navMeshAgent.speed = idleMovementSpeed;
-        _navMeshAgent.SetDestination(randomPosition);
+        _navMeshAgent.SetDestination(pointRandomPositions[randomPosition].position);
     }
     private void OnDrawGizmos()
     {

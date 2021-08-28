@@ -15,7 +15,6 @@ public class Bullet : MonoBehaviour
     }
     private void Start()
     {
-
         _rigidbody.velocity = _camera.forward * bulletSpeed;
     }
 

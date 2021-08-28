@@ -1,5 +1,8 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.AI;
+
+
 
 public class RagdollManager : MonoBehaviour
 {
@@ -7,11 +10,43 @@ public class RagdollManager : MonoBehaviour
     public Transform CurrentMeshPosition;
     public Animator AnimatorGO;
     public ConfigurableJoint hips;
+    public NavMeshAgent agent;
 
+    AudioSource audioSource;
+
+    Material startMaterial;
+    public Material DisableMat;
+
+    public SkinnedMeshRenderer _meshRenderer;
+
+    public bool isFall;
+
+    float timeToGetUp=3f;
+    float timePassed;
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
+
+    private void Start()
+    {
+        startMaterial = _meshRenderer.material;
+    }
+
+    [ContextMenu("Disable")]
     public void Disable()
     {
-        PhizicalTransform.gameObject.SetActive(false) ;
+        audioSource.Play();
 
+        isFall = true;
+
+        timePassed = timeToGetUp;
+
+        _meshRenderer.material = DisableMat;
+
+        agent.enabled = false;
         JointDrive xDrive = hips.xDrive;
         xDrive.positionSpring = 0f;
         xDrive.positionDamper = 0f;
@@ -38,13 +73,15 @@ public class RagdollManager : MonoBehaviour
         hips.slerpDrive = slerpDrive;
 
         AnimatorGO.enabled = false;
-
-        StartCoroutine(WaitAfterHitting());
     }
 
     void Enable()
     {
-        PhizicalTransform.gameObject.SetActive(true);
+        isFall = false;
+
+        _meshRenderer.material = startMaterial;
+
+        agent.enabled = true;
 
         JointDrive xDrive = hips.xDrive;
         xDrive.positionSpring = 5000000f;
@@ -69,101 +106,30 @@ public class RagdollManager : MonoBehaviour
         slerpDrive.positionSpring = 5000000f;
         slerpDrive.positionDamper = 5000f;
 
+
+
         hips.slerpDrive = slerpDrive;
-        AnimatorGO.enabled = true;
-        PhizicalTransform.position = CurrentMeshPosition.position;
+        AnimatorGO.enabled = true;    
     }
 
-    IEnumerator WaitAfterHitting()
+    private void Update()
     {
-        yield return new WaitForSeconds(2f);
-        Enable();
+
+        if (isFall)
+        {
+            timePassed= Mathf.Clamp(timePassed,-1f,Mathf.Infinity);
+            timePassed -= Time.deltaTime;
+            if (timePassed  <=0f)
+            {
+                Enable();
+            }
+
+            NavMeshHit hit;
+            if (NavMesh.SamplePosition(hips.transform.position, out hit, 500f, NavMesh.AllAreas))
+            {
+                Debug.DrawRay(hit.position, Vector3.up);
+                PhizicalTransform.position = hit.position;
+            }
+        }
     }
-
-
-    //public ConfigurableJoint[] _configurableJoints;
-
-    //public Transform PhizicalTransform;
-    //public Transform CurrentMeshPosition;
-
-    //private void Start()
-    //{
-    //    _configurableJoints = GetComponentsInChildren<ConfigurableJoint>();
-    //}
-
-    //public void Disable()
-    //{
-
-    //    for (int i = 0; i < _configurableJoints.Length; i++)
-    //    {
-    //        JointDrive xDrive = _configurableJoints[i].xDrive;
-    //        xDrive.positionSpring = 0f;
-    //        xDrive.positionDamper = 0f;
-
-    //        _configurableJoints[i].xDrive = xDrive;
-
-    //        JointDrive yDrive = _configurableJoints[i].yDrive;
-    //        yDrive.positionSpring = 0f;
-    //        yDrive.positionDamper = 0f;
-
-    //        _configurableJoints[i].yDrive = yDrive;
-
-    //        JointDrive zDrive = _configurableJoints[i].zDrive;
-    //        zDrive.positionSpring = 0f;
-    //        zDrive.positionDamper = 0f;
-
-    //        _configurableJoints[i].zDrive = zDrive;
-
-
-    //        JointDrive slerpDrive = _configurableJoints[i].slerpDrive;
-    //        slerpDrive.positionSpring = 0f;
-    //        slerpDrive.positionDamper = 0f;
-
-    //        _configurableJoints[i].slerpDrive = slerpDrive;
-
-    //        StartCoroutine(WaitAfterHitting());
-    //    }
-    //}
-
-    //public void Enable()
-    //{
-    //    for (int i = 0; i < _configurableJoints.Length; i++)
-    //    {
-    //        JointDrive xDrive = _configurableJoints[i].xDrive;
-    //        xDrive.positionSpring = 5000000f;
-    //        xDrive.positionDamper = 5000f;
-
-    //        _configurableJoints[i].xDrive = xDrive;
-
-    //        JointDrive yDrive = _configurableJoints[i].yDrive;
-    //        yDrive.positionSpring = 5000000f;
-    //        yDrive.positionDamper = 5000f;
-
-    //        _configurableJoints[i].yDrive = yDrive;
-
-    //        JointDrive zDrive = _configurableJoints[i].zDrive;
-    //        zDrive.positionSpring = 5000000f;
-    //        zDrive.positionDamper = 5000f;
-
-    //        _configurableJoints[i].zDrive = zDrive;
-
-
-    //        JointDrive slerpDrive = _configurableJoints[i].slerpDrive;
-    //        slerpDrive.positionSpring = 5000000f;
-    //        slerpDrive.positionDamper = 5000f;
-
-    //        _configurableJoints[i].slerpDrive = slerpDrive;
-
-    //        PhizicalTransform.position = CurrentMeshPosition.position;
-    //    }
-    //}
-
-
-    //IEnumerator WaitAfterHitting()
-    //{
-    //    yield return new WaitForSeconds(2f);
-    //    Enable();
-    //}
-
-
 }

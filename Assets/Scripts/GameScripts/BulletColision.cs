@@ -4,7 +4,6 @@ public class BulletColision : MonoBehaviour
 {
 
     AudioSource audioSource;
-
     private void Awake()
     {
         audioSource = GetComponent<AudioSource>();
@@ -13,6 +12,7 @@ public class BulletColision : MonoBehaviour
     {
         if (collision.collider.GetComponentInParent<RagdollManager>())
         {
+            audioSource.Play();
             RagdollManager _ragdollManager = collision.collider.GetComponentInParent<RagdollManager>();
             _ragdollManager.Disable();
         }
