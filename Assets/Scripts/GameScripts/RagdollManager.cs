@@ -114,7 +114,10 @@ public class RagdollManager : MonoBehaviour
 
     private void Update()
     {
-
+        if (hips.transform.position.y<-1.5f)
+        {
+            GetComponentInParent<Ragdoll>().Death();
+        }
         if (isFall)
         {
             timePassed= Mathf.Clamp(timePassed,-1f,Mathf.Infinity);

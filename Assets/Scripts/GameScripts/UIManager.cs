@@ -28,6 +28,6 @@ public class UIManager : MonoBehaviour
 
     public void UpdateScore()
     {
-        scoreText.text = _gameManager.coinsRemain + " / " + _gameManager.enemyRemain;
+        scoreText.text = "Coins: " + _gameManager.coinsRemain + " / " + _gameManager.enemyRemain + " :Humans";
     }
 }

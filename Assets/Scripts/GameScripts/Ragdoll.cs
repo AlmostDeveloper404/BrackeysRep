@@ -33,7 +33,6 @@ public class Ragdoll : MonoBehaviour
     {
         while (true)
         {
-            Debug.Log("Yep");
             yield return new WaitForSeconds(4f);
         }
     }

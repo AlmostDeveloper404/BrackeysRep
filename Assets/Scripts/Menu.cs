@@ -11,13 +11,29 @@ public class Menu : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
     public void PlayCoinSound()
     {
         audioSource.Play();
     }
-    public void Play()
+    public void Easy()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        SceneManager.LoadScene(4);
+    }
+
+    public void Medium()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void Hard()
+    {
+        SceneManager.LoadScene(5);
     }
     public void Quit()
     {

@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 619b8ac0675710f44b318e509d357f8e
   - enabled: 1
-    path: Assets/Scenes/BrackeysJam.unity
+    path: Assets/Scenes/Medium.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 93052c31dc54564479e508d60481c9a6
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: edc42b5d7163979448cddd50358b82df
+  - enabled: 1
+    path: Assets/Scenes/Easy.unity
+    guid: 25f09c96d3e0ad646870cf5fffdfd042
+  - enabled: 1
+    path: Assets/Scenes/Hard.unity
+    guid: 6df7ff4f89b38cb4ca66b228d3997fd1
   m_configObjects: {}
