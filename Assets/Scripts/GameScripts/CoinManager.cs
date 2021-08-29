@@ -53,7 +53,7 @@ public class CoinManager : MonoBehaviour
 
     public void PickUpCoin(Transform coin)
     {
-
+        AudioManager.instance.audios[0].Play();
         GameObject particleGO = Instantiate(particle,coin.position+new Vector3(0f,.5f,0f),coin.rotation);
         Destroy(particleGO,1f);
 

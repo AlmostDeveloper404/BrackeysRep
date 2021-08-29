@@ -57,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3376462342143839526, guid: 44736a96c289bfd4aa5e93cdefa6579d, type: 3}
       propertyPath: m_Name
-      value: Ragdoll (8)
+      value: EasyVersion
       objectReference: {fileID: 0}
     - target: {fileID: 5716413093831387333, guid: 44736a96c289bfd4aa5e93cdefa6579d, type: 3}
       propertyPath: m_ConnectedAnchor.x
