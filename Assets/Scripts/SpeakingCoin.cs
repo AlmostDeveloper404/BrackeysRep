@@ -18,4 +18,9 @@ public class SpeakingCoin : MonoBehaviour
     {
         MenuMusic.Play();
     }
+
+    public void PlayIdleAnimation()
+    {
+        GetComponent<Animator>().SetTrigger("PlayIdle");
+    }
 }
